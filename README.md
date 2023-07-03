@@ -12,7 +12,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-![Alt text]()
+![Webpage screen shot](https://github.com/SkylarHammond55/Password-Generator/blob/main/Assets/Screenshot-of-password-gen.jpg "")
 
 
 ##link
