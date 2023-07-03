@@ -53,4 +53,12 @@ function generatePassword() {
     characterPool += specialChars;
   }
 
+    // Generate the password
+    var password = "";
+    for (var i = 0; i < passwordLength; i++) {
+      var randomIndex = Math.floor(Math.random() * characterPool.length);
+      password += characterPool.charAt(randomIndex);
+    }
+  
+    return password;
 }
